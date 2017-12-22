@@ -1,0 +1,36 @@
+@CHARSET "ISO-8859-1";
+#textarea_01 {
+width:600px;
+max-width:600px;
+font-family:'Century Gothic',futura,'URW Gothic L',Verdana,sans-serif;
+height:300px;
+font-style:normal;
+font-weight:normal;
+font-size:12pt;
+color:#3E3D3C;
+border:2px solid #474747;
+background:#D4D4D4;
+padding:6px 7px;
+margin-top:10px;
+margin-bottom:10px;
+line-height:120%;
+box-shadow:5px 5px 5px #B8B8B8;
+filter:alpha(opacity=90%);
+-moz-opacity:0.9;
+-khtml-opacity:0.9;
+opacity:0.9;
+-moz-transition:all .4s ease;
+-webkit-transition:all .4s ease;
+-o-transition:all .4s ease;
+transition:all .4s ease;
+}
+#textarea_01:hover {
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+border-radius:8px;
+box-shadow:5px 5px 5px #FCFCFB;
+filter:aplha(opacity=100%);
+-moz-opacity:1;
+-khtml-opacity:1;
+opacity:1;
+}
